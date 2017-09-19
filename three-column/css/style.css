@@ -6,8 +6,8 @@ htmk, body{
 }
 
 h1,h2,h3,h4,h5 {
-	margin: 0;
-	padding: 0;
+	margin: 10px;
+	padding: 10px;
 	width: 100%;
 	height: auto;
 }
@@ -24,18 +24,20 @@ div {
 #left {
 	background-color: pink;
 	float: left;
-
+	width: 23%;
 }
 
 #center {
 	background-color: blue;
 	float: left;
-	margin-left: 5%;
+	margin-left: 2%;
+	width: 50%;
 }
 
 #right {
 	background-color: green;
 	float: right;
+	width: 23%;
 
 }
 
