@@ -1,4 +1,4 @@
-htmk, body{
+html, body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -6,36 +6,61 @@ htmk, body{
 }
 
 h1,h2,h3,h4,h5 {
-	margin: 0;
-	padding: 0;
+	margin: 10px;
+	padding: 10px;
 	width: 100%;
 	height: auto;
 }
 
 header {
 	background-color: teal;
-	margin: 0, 0;
+	float: left; 
+	width: 200px;
+	height: 100px;
+	margin-bottom: 10px;
 }
+
 div {
 	width: 30%;
 	height: 200px;
 }
 
+
+.tabs {
+	background-color: orange;
+	float: right;
+	width: 100px;
+	height: 75px;
+	margin: 5px;
+	display: inline;
+}
+
+#top {
+	background-color: gray;
+	margin-bottom: 10px;
+	clear: both;
+	width: auto;
+}
+
 #left {
 	background-color: pink;
 	float: left;
+	clear: both;
+	width: 31%;
 
 }
 
 #center {
 	background-color: blue;
 	float: left;
-	margin-left: 5%;
+	margin-left: 4%;
+	width: 31%;
 }
 
 #right {
 	background-color: green;
 	float: right;
+	width: 31%;
 
 }
 
