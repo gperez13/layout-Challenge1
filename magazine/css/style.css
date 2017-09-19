@@ -1,0 +1,52 @@
+htmk, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+
+h1,h2,h3,h4,h5 {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+
+header {
+	background-color: teal;
+	margin: 0, 0;
+}
+div {
+	width: 30%;
+	height: 200px;
+}
+
+#left {
+	background-color: pink;
+	float: left;
+
+}
+
+#center {
+	background-color: blue;
+	float: left;
+	margin-left: 5%;
+}
+
+#right {
+	background-color: green;
+	float: right;
+
+}
+
+footer {
+	background-color: red;
+	clear: both;
+}
+
+
+
+
+
+
+
